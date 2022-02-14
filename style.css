@@ -75,6 +75,7 @@ section{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     height: 80%;
+    background-color: white;
 }
 
 .experience-area{
@@ -82,4 +83,24 @@ section{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+}
+
+#developer{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#traveler{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan) ;
+    border-image-slice: 1;    
+
+}
+
+footer p {
+
+    text-align: center;
+    font-size: 12px;
 }
